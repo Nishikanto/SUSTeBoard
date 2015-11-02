@@ -1,0 +1,154 @@
+package com.sust.cse;
+
+import java.awt.image.BufferedImage;
+import java.io.BufferedOutputStream;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+import javax.imageio.ImageIO;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.commons.codec.binary.Base64;
+
+/**
+ * Servlet implementation class UploadServlet
+ */
+@WebServlet("/UploadServlet")
+public class UploadServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+	public UploadServlet() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		String uploadFolder = getServletContext().getRealPath("");
+		
+		String department = request.getParameter("department");
+		System.out.println(department);
+		
+		String postDate = request.getParameter("postDate");
+		System.out.println(postDate);
+		
+		String notice = request.getParameter("notice");
+		System.out.println(notice);
+		
+		String details = request.getParameter("details");
+		System.out.println(details);
+		
+		String attachFile = request.getParameter("file");
+		String attachFileName = attachFile.split("&&")[0];
+		attachFile = attachFile.split("&&")[1].replaceAll("\n", "");
+		System.out.println(attachFileName);
+		System.out.println(attachFile);
+		
+		
+		String image = request.getParameter("image");
+		String imageName = image.split("&&")[0];
+		image = image.split("&&")[1].replaceAll("\n", "");
+		System.out.println(imageName);
+		System.out.println(image);
+		
+		
+		try {
+            // Decode String using Base64 Class
+            byte[] fileByteArray = Base64.decodeBase64(attachFile); 
+ 
+            // Write Image into File system - Make sure you update the path
+            System.out.println(fileByteArray);
+            System.out.println(uploadFolder + attachFileName);
+            FileOutputStream realFileOutFile = new FileOutputStream(uploadFolder + attachFileName);
+            realFileOutFile.write(fileByteArray);
+            realFileOutFile.flush();
+            realFileOutFile.close();
+ 
+            System.out.println("File Successfully Stored");
+        } catch (FileNotFoundException fnfe) {
+            System.out.println("File Path not found" + fnfe);
+        } catch (IOException ioe) {
+            System.out.println("Exception while converting the File " + ioe);
+        }
+
+		
+		
+		try {
+            // Decode String using Base64 Class
+            byte[] imageByteArray = Base64.decodeBase64(image); 
+ 
+            // Write Image into File system - Make sure you update the path
+            System.out.println(imageByteArray);
+            System.out.println(uploadFolder + imageName);
+            FileOutputStream imageOutFile = new FileOutputStream(uploadFolder + imageName);
+            imageOutFile.write(imageByteArray);
+            imageOutFile.flush();
+            imageOutFile.close();
+ 
+            System.out.println("Image Successfully Stored");
+        } catch (FileNotFoundException fnfe) {
+            System.out.println("Image Path not found" + fnfe);
+        } catch (IOException ioe) {
+            System.out.println("Exception while converting the Image " + ioe);
+        }
+		
+		
+		
+		String databaseImagePath = "http://192.168.43.147:8080/SUSTeBoardServer/ImageServlet?title=" + imageName.split("\\.")[0];
+        System.out.println(databaseImagePath);
+        
+        String databaseFilePath = "http://192.168.43.147:8080/SUSTeBoardServer/DownloadServlet?fileName=" + attachFileName;
+        System.out.println(databaseFilePath);
+        
+        DatabaseConnection databaseConnection = new DatabaseConnection();
+		Connection con = databaseConnection.getDbConnection();
+		
+		String sql = "insert into notice_table (_notice, _details, _created_at, _image_link, _pdf_link, _department) values ('" + notice + "','" + details + "','" + postDate + "','" + databaseImagePath + "','" + databaseFilePath + "','" + department + "')";
+		Statement st = null;
+		try {
+			st = con.createStatement();
+			st.executeUpdate(sql);
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} finally {
+			try {
+				st.close();
+				con.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+		}
+		
+		
+	}
+}

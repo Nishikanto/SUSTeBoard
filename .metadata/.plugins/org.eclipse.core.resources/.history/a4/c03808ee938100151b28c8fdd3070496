@@ -1,0 +1,81 @@
+package com.sust.cse.servlet;
+
+import java.io.IOException;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import com.sust.cse.servletHelper.GetNotice;
+import com.sust.cse.servletHelper.Login;
+import com.sust.cse.servletHelper.Registration;
+import com.sust.cse.servletHelper.Upload;
+
+/**
+ * Servlet implementation class SusteboardServlet
+ */
+@WebServlet("/SusteboardServlet")
+public class SusteboardServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#HttpServlet()
+	 */
+	public SusteboardServlet() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doGet(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		
+		System.out.println("Get Requset");
+		
+		String Command = request.getParameter("command");
+
+		switch (Command) {
+		case "login":
+			Login loginServlet = new Login();
+			loginServlet.doGet(request, response);
+			break;
+		case "getnotice":
+			GetNotice getNoticeServlet = new GetNotice();
+			getNoticeServlet.doGet(request, response);
+			break;
+		default:
+			System.out.println("Error");
+			break;
+		}
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
+	 *      response)
+	 */
+	protected void doPost(HttpServletRequest request,
+			HttpServletResponse response) throws ServletException, IOException {
+		
+		String uploadFolder = getServletContext().getRealPath("");
+		String Command = request.getParameter("command");
+
+		switch (Command) {
+		/*case "upload":
+			Upload uploadServlet = new Upload();
+			uploadServlet.doPost(request, response, uploadFolder);
+			break;*/
+		case "registration":
+			Registration registrationServlet = new Registration();
+			registrationServlet.doPost(request, response);
+			break;
+		default:
+			System.out.println("Error");
+			break;
+		}
+	}
+}
