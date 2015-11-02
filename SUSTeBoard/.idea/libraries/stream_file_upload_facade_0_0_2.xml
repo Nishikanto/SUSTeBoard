@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="stream-file-upload-facade-0.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/stream-file-upload-facade-0.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

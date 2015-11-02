@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">SUSTeBoard</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_intro_page">IntroPage</string>
+    <string name="title_activity_notice_list">NoticeList</string>
+    <string name="title_activity_all_notice_list">AllNoticeList</string>
+    <string name="title_activity_today_notice_list">TodayNoticeList</string>
+    <string name="title_activity_admin_page">AdminPage</string>
+    <string name="title_activity_post_notice">PostNotice</string>
+    <string name="title_activity_notice_details">NoticeDetails</string>
+
+    <string name="department_prompt">Choose a department</string>
+
+    <string-array name="department_arrays">
+        <item>CSE</item>
+        <item>PME</item>
+        <item>IPE</item>
+        <item>PHY</item>
+        <item>EEE</item>
+        <item>BBA</item>
+        <item>ECO</item>
+        <item>ENG</item>
+    </string-array>
+    <string name="title_activity_all_notice_for_admin">AllNoticeForAdmin</string>
+    <string name="title_activity_today_notice_for_admin">TodayNoticeForAdmin</string>
+    <string name="title_activity_settings">settings</string>
+
+
+</resources>

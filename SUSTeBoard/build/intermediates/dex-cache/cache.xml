@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-7023e9c5f3be722ab5fbe7aa65dd48f40d4411fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\nishi_000\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.4\dd9eeb557650c4ad7394df23f0f5cf27a7cfc697\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-ff22e309a05bab1c061af9381f521771997898e4.jar" />
+    </item>
+    <item
+        jar="C:\Users\nishi_000\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-b746d51f9333d5465ae5b84b426d40484b925eb9.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\SUSTeBoard\volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8d3ee3f0ba313f8f5aa2ed855cff5e7278c2c470">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-4bfe5eaa5303663c2f1080101434c6c56b258937.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-566ec6754f43d6c289ec09756a7f63eb9858e630.jar" />
+    </item>
+    <item
+        jar="C:\Users\nishi_000\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-921bb1603304c6c5ccef60528efde119527d2f92.jar" />
+    </item>
+    <item
+        jar="C:\Users\nishi_000\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-b746d51f9333d5465ae5b84b426d40484b925eb9.jar" />
+    </item>
+    <item
+        jar="C:\Users\nishi_000\.gradle\caches\modules-2\files-2.1\com.loopj.android\android-async-http\1.4.9\386a4339ffe52d5d63e80f9bed8d2b1d1a418249\android-async-http-1.4.9.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\android-async-http-1.4.9-48f60b3d14d1e41226e50b3d6f90068e8451475e.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-6e55b23c7ef54ab2dd3fd70e3a2cea26fb85af07.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\design\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-6e55b23c7ef54ab2dd3fd70e3a2cea26fb85af07.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-566ec6754f43d6c289ec09756a7f63eb9858e630.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-c778076a0127c34c93a9d5bf0deea54a72367478.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="4b8945fc23a7461c6fdde15753456d64b0a9358b">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-7023e9c5f3be722ab5fbe7aa65dd48f40d4411fa.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-de405a0983105d638f5d29df167de0c05fe50f23.jar" />
+    </item>
+    <item
+        jar="C:\Users\nishi_000\.gradle\caches\modules-2\files-2.1\com.nostra13.universalimageloader\universal-image-loader\1.9.4\dd9eeb557650c4ad7394df23f0f5cf27a7cfc697\universal-image-loader-1.9.4.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="dd9eeb557650c4ad7394df23f0f5cf27a7cfc697">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.4-ff22e309a05bab1c061af9381f521771997898e4.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-1d660468c6009b02c5b4eddbf8b2b0b353c0aee2.jar" />
+    </item>
+    <item
+        jar="C:\Users\nishi_000\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife\6.1.0\63735f48b82bcd24cdd33821342428252eb1ca5a\butterknife-6.1.0.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="63735f48b82bcd24cdd33821342428252eb1ca5a">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\butterknife-6.1.0-921bb1603304c6c5ccef60528efde119527d2f92.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\libs\stream-file-upload-facade-0.0.2.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="037266307172a6e76b2bc20ee9f409c6c9381c82">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\stream-file-upload-facade-0.0.2-84ace67467108c23a38b88c81bb3897e68bbcfec.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-1d660468c6009b02c5b4eddbf8b2b0b353c0aee2.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\SUSTeBoard\volley\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="8d3ee3f0ba313f8f5aa2ed855cff5e7278c2c470">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-4bfe5eaa5303663c2f1080101434c6c56b258937.jar" />
+    </item>
+    <item
+        jar="C:\Users\nishi_000\.gradle\caches\modules-2\files-2.1\cz.msebera.android\httpclient\4.3.6\526a9f794eab830eae4f23a62c572878b3f491ab\httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\httpclient-4.3.6-803a20bd92eab0d06a4ab59beb87c8aa200410d0.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-de405a0983105d638f5d29df167de0c05fe50f23.jar" />
+    </item>
+    <item
+        jar="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="00b0b7233e1ec64acebfac40d4983d32d4712426">
+        <dex dex="G:\AndroidProjectSust\SUSTeBoard\app\build\intermediates\pre-dexed\debug\classes-c778076a0127c34c93a9d5bf0deea54a72367478.jar" />
+    </item>
+
+</items>
